@@ -8,8 +8,6 @@ Customizable UITextView subclass that supports tagging.
 How to use it.
 --------------
 
-``TaggableTextView``
-````````````````````
 .. code-block:: objective-c
 
   //REQUIRED
@@ -20,7 +18,6 @@ How to use it.
   _text_view.tagPrefix = @"#"; // It is '@' by default 
   _text_view.tableViewClass = [YourTableViewSubclass class];
   _text_view.textFieldClass = [YourTextFieldSubclass class];
-  
   
   //REQUIRED
   [_text_view makeTaggable];
