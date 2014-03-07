@@ -3,6 +3,9 @@ TaggableTextView
 
 Customizable UITextView subclass that supports tagging.
 
+``TaggableTextView``
+````````````````````
+
 How to use it.
 --------------
 
