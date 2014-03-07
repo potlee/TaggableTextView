@@ -7,8 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#include "TagsTable.h"
-#import "TagField.h"
 @interface TaggableTextView : UITextView <UITableViewDataSource, UITableViewDelegate, UITextViewDelegate, UITextFieldDelegate>
 
 @property (strong,nonatomic) UITableView *tableView;
