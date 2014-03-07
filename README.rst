@@ -11,7 +11,7 @@ How to use it.
 .. code-block:: objective-c
 
   //REQUIRED
-  _text_view = [[TaggableTextView alloc] initWithFrame: CGRectMake(20, 200, 280, 100)];
+  _text_view = [[TaggableTextViewSubclass alloc] initWithFrame: CGRectMake(20, 200, 280, 100)];
   [_text_view setText:@"This text is taggable"];
   
   //Optional customization
@@ -35,4 +35,11 @@ Or if you are pulling from an api you can subclass TaggableTextView and implemen
 
 .. code-block:: objective-c
 
+  -(NSArray*) tagsForQuery: (NSString*) query;
+
+The Tag event
+-------------
+Make sure you implement this in your subclass
+.. code-block:: objective-c
   -(void) didTagItemAt: (NSNumber*) i;
+
