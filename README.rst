@@ -8,6 +8,7 @@ Customizable UITextView subclass that supports tagging.
 How to use it.
 --------------
 You need to subclass TaggableTextView and do this:
+
 .. code-block:: objective-c
 
   //REQUIRED
