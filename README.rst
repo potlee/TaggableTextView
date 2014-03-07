@@ -44,4 +44,4 @@ The Tag event
 
   -(void) didTagItemAt: (NSNumber*) i;
 
-Make sure you implement this in your subclass
+Make sure you implement this in your subclass. It gives you the index of the tagged element in tagSource
