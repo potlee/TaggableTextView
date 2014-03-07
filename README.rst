@@ -29,7 +29,6 @@ Data Source
 You can give it all your tags like:
 
 .. code-block:: objective-c
-
   _text_view.tagSource = @[@"Deep Patel", @"whoever else"];
   
 Or if you are pulling from an api you can subclass TaggableTextView and implement:
