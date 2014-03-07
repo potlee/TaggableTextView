@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.social_media_url = "http://facebook.com/potlee"
   s.platform     = :ios
   s.source       = { :git => "https://github.com/potlee/TaggableTextView.git"}
-  s.source_files  = '*'
+  s.source_files  = '*.{h,m}'
   s.exclude_files = 'Classes/Exclude'
   s.requires_arc = true
 end
