@@ -40,8 +40,8 @@ Or if you are pulling from an api you can subclass TaggableTextView and implemen
 The Tag event
 -------------
 
-
 .. code-block:: objective-c
+
   -(void) didTagItemAt: (NSNumber*) i;
 
 Make sure you implement this in your subclass
