@@ -16,8 +16,8 @@
     self = [super initWithFrame:frame];
     if (self) {
         [self setDelegate:self];
-        self.layer.borderColor = [[UIColor blackColor] CGColor];
-        self.layer.borderWidth = 2;
+        //self.layer.borderColor = [[UIColor blackColor] CGColor];
+        //self.layer.borderWidth = 2;
         self.tagPrefix = @"@";
         self.tagSource = nil;
         self.tableView.rowHeight = 40.0;
