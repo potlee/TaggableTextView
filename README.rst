@@ -17,6 +17,8 @@ You need to subclass TaggableTextView and do this:
   
   //Optional customization
   _text_view.tagPrefix = @"#"; // It is '@' by default 
+  
+  //These Will be initialized with Just alloc-init
   _text_view.tableViewClass = [YourTableViewSubclass class];
   _text_view.textFieldClass = [YourTextFieldSubclass class];
   
