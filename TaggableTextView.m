@@ -28,12 +28,12 @@
 }
 
 - (void)makeTaggable {
-    _tableView = [[_tableViewClass alloc] initWithFrame:CGRectMake(0, 50, 320, 300)];
+    _tableView = [[_tableViewClass alloc] init];
     _tableView.delegate = self;
     _tableView.dataSource = self;
     [[self superview] addSubview:_tableView];
     
-    _tagField = [[_textFieldClass alloc] initWithFrame:CGRectMake(20, 20, 280, 30)];
+    _tagField = [[_textFieldClass alloc] init];
     _tagField.delegate = self;
     [self.superview addSubview:_tagField];
     
