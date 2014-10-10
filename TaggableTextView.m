@@ -16,8 +16,8 @@
     self = [super initWithFrame:frame];
     if (self) {
         [self setDelegate:self];
-        //self.layer.borderColor = [[UIColor blackColor] CGColor];
-        //self.layer.borderWidth = 2;
+        self.layer.borderColor = [[UIColor blackColor] CGColor];
+        self.layer.borderWidth = 2;
         self.tagPrefix = @"@";
         self.tagSource = nil;
         self.tableView.rowHeight = 40.0;
@@ -28,7 +28,7 @@
 }
 
 - (void)makeTaggable {
-    _tableView = [[_tableViewClass alloc] init];
+    _tableView = [[_tableViewClass alloc] initWithFrame: [[UIScreen mainScreen] bounds]];
     _tableView.delegate = self;
     _tableView.dataSource = self;
     [[self superview] addSubview:_tableView];
